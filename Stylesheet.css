@@ -1,0 +1,35 @@
+#header1 {
+  /* position: absolute; */
+  position: fixed;
+  color: navy;
+  font-size: 10em;
+  margin-top: 10px;
+}
+
+#decription {
+  position: fixed;
+  bottom: 10px;
+  color: green;
+  text-align: left;
+  font-size: 8em;
+  margin-top: 20px:
+
+}
+
+#animaBox {
+  width:100px;
+  height:500px;
+}
+
+#btmLayer {
+  position: absolute;
+  z-index: 1;
+}
+
+#topLayer {
+  position: absolute;
+  z-index: 2;
+  padding: 30px;
+  color: #96E2FC;
+  /* bottom: 20px; */
+}

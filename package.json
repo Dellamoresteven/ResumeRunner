@@ -2,17 +2,13 @@
   "name": "ResumeRunner",
   "version": "0.1.0",
   "private": true,
-  "main": "server.js",
+  "main": "public/server.js",
   "scripts": {
-    "start": "npm install && node server.js"
+    "start": "cd public/ && node server.js",
+    "postinstall": "cd public && npm install"
   },
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "express": "^4.16.4",
-    "heroku": "^7.18.9",
-    "jquery": "^3.3.1",
-    "nodemon": "^1.18.4"
+    "public": "file:public"
   },
   "author": "",
   "license": "ISC"

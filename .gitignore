@@ -1,5 +1,6 @@
 node_moudles
 node_modules/*
 node_modules/
+public/node_modules/
 .DS_Store
 ResumeRunnerV2/.DS_Store

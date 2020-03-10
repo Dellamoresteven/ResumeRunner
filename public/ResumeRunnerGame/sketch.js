@@ -45,11 +45,10 @@ function draw() {
     case 3:
       break;
   }
-
   OverLay.display();
   keyPressed();
 }
-//http://keycode.info
+
 function keyPressed() {
   if (freemove) {
     if (keyIsDown(39)) {
